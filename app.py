@@ -15,7 +15,7 @@ def validationImpost():
     productController.setImpost()
     return jsonify(productController.showImpost())
 
-
+## TESTE Calculo de taxa
 @app.route('/POST/testCalcImpost' ,methods=['POST'])
 def test():
     data = request.get_json();
